@@ -1,0 +1,56 @@
+/* common.css */
+
+/* GLOBAL RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+/* HEADER AND NAVIGATION */
+.custom-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e1e1e1;
+  padding: 15px 30px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.site-name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #111827;
+  white-space: nowrap;  
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.nav a,
+.nav button {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111827;
+  font-size: 27px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0; 
+}
+
+.nav a:hover,
+.nav button:hover {
+  color: #007bff;
+}
